@@ -1,0 +1,42 @@
+nav {
+	background: rgba(0, 0, 0, 0.3);
+	width: max-content;
+	display: block;
+	padding: 0.1rem 1.7rem;
+	z-index: 2;
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 2rem;
+	display: flex;
+	gap: 0.8rem;
+	border-radius: 3rem;
+	backdrop-filter: blur(15px);
+	/* display: none; */
+}
+
+nav a {
+	font-size: 10px;
+}
+
+nav .active {
+	background-color: black;
+	color: white;
+	border-radius: 50%;
+	/* width: 20px; */
+	/* height: 17px; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0;
+}
+
+.Icon {
+	font-size: 25px;
+}
+
+@media (max-width: 390px) {
+	nav {
+		display: none;
+	}
+}

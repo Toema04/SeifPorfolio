@@ -1,0 +1,115 @@
+.skill {
+	position: relative;
+	top: 90px;
+	display: flex;
+	justify-content: center;
+}
+
+.skillBox {
+	width: 100%;
+	height: 480px;
+	background-color: #161717;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.skillBox h1 {
+	padding-top: 20px;
+	letter-spacing: 0.2px;
+	font-size: 35px;
+	color: white;
+}
+
+.iconSaif .CircularProgressbar-path {
+	background: -webkit-linear-gradient(to right, #1d2671, #c33764);
+	background: linear-gradient(to right, #1d2671, #c33764);
+	stroke: #c33764 !important;
+}
+
+.textContent {
+	font-size: 25px;
+	position: relative;
+}
+
+.featured {
+	margin: 0 20%;
+	overflow: hidden;
+	overflow-x: hidden;
+}
+
+.IconsWithWord {
+	display: grid;
+	gap: 10px;
+}
+.FrameWord {
+	color: white;
+}
+.featuredIcons {
+	/* START this do same thing */
+	/* justify-items: center;
+	align-items: center; */
+	/*
+	justify-self: center; */
+	/* END this do same thing */
+	display: flex;
+	width: 100%;
+	height: 360px;
+	place-items: center center;
+	gap: 35px;
+	cursor: grab;
+}
+
+.text {
+	color: white;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	bottom: 4rem;
+}
+
+.span {
+	color: white;
+	position: absolute;
+	top: 73%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.span .span1 {
+	position: relative;
+	right: 150px;
+}
+.span .span2 {
+	position: relative;
+	left: -3px;
+}
+.span .span3 {
+	position: relative;
+	left: 120px;
+}
+.span .span4 {
+	position: relative;
+	left: 230px;
+}
+.span .span5 {
+	position: relative;
+	left: 320px;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+/* media mobile*/
+
+@media (min-width: 390px) and (max-width: 767px) {
+	.skillBox {
+		width: 100%;
+	}
+	.featuredIcons {
+		display: flex;
+		flex-direction: row;
+		/* justify-content: center; */
+		align-items: center center;
+	}
+}

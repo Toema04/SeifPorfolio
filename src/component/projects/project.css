@@ -1,0 +1,101 @@
+.project {
+	/* height: 100vh; */
+	/* width: 100%; */
+	background-color: black;
+}
+
+.projectContainer {
+	padding: 20px 0;
+}
+
+.projectText {
+	color: white;
+	text-align: center;
+}
+.projectText h1 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.projectText p {
+	padding-top: 10px;
+	margin: 0 90px;
+}
+
+.box {
+	display: grid;
+	/* grid-template-columns: 30% 30% 30%; */
+	grid-template-columns: auto auto auto;
+	grid-gap: 2.1rem;
+	/* align-items: 0 20px; */
+	justify-content: center;
+	margin-top: 30px;
+	width: 100%;
+}
+
+.imageBox {
+	/* height: 100%; */
+	/* width: 400px; */
+	/* height: 286px; */
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	transition: all 0.5s ease;
+}
+
+.img {
+	object-fit: cover;
+	border-radius: 10px;
+	width: 100%;
+	height: 267px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+/* h3 {
+	position: absolute;
+	font-size: 20px;
+	color: white;
+} */
+
+/* .img:hover {
+	opacity: 0.2;
+	z-index: 0;
+} */
+
+@media (min-width: 390px) and (max-width: 767px) {
+	.box {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+	}
+	.imageBox {
+		width: 290px;
+		height: 185px;
+		border-radius: 10px;
+	}
+	.projectBox {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1190px) {
+	.box {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+	}
+	.imageBox {
+		width: 290px;
+		height: 185px;
+		border-radius: 10px;
+	}
+	.projectBox {
+		display: flex;
+		justify-content: center;
+	}
+}

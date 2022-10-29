@@ -1,0 +1,142 @@
+.connect {
+	height: 40rem;
+	background: #c0392b; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#8e44ad,
+		#c0392b
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#8e44ad,
+		#c0392b
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/* display: flex;
+	align-items: center; */
+}
+
+.connectCenter {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 40rem;
+}
+
+img {
+	width: 500px;
+	/* height: 100;  */
+	object-fit: cover;
+}
+/* .connectText {
+	position: relative;
+	top: -166px;
+	width: 257px;
+	right: -316px;
+} */
+
+h2 {
+	color: white;
+	font-size: 33px;
+	width: inherit;
+	opacity: 0.7;
+	text-align: end;
+	position: relative;
+	top: -60px;
+	left: 34px;
+}
+
+form {
+	/* display: grid;
+	grid-template-columns: auto auto;
+	gap: 3px; */
+}
+
+.me {
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+}
+
+.contact-option {
+	background: transparent;
+	border: 2px solid #ffffff52;
+	-webkit-backdrop-filter: blur(15px);
+	backdrop-filter: blur(15px);
+	text-align: center;
+	border-radius: 15px;
+	transition: all 0.5s ease-out;
+	padding: 10px 10px;
+}
+.contact-option:hover {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.contact-option h4 {
+	color: rgba(255, 255, 255, 0.856);
+	padding-top: 5px;
+}
+.contact-option h5 {
+	color: rgba(255, 255, 255, 0.856);
+	padding-top: 5px;
+}
+
+.contact-option-icon {
+	color: white;
+	font-size: 25px;
+}
+
+.moh {
+	font-size: 20px;
+	letter-spacing: 1.3px;
+}
+
+/* .input {
+	border: 2px solid #ffffffa1;
+	padding: 14px 25px;
+	background: #f5f5f5a6;
+	opacity: 0.6;
+	border-radius: 15px;
+	outline: none;
+	backdrop-filter: blur(15px);
+}
+
+.massage {
+	min-height: 150px;
+	width: 500px;
+	background: #f5f5f5a6;
+	opacity: 0.6;
+	border-radius: 15px;
+	outline: none;
+	border: 2px solid #ffffffa1;
+	margin: 3px 0;
+	-webkit-backdrop-filter: blur(15px);
+	backdrop-filter: blur(15px);
+}
+
+.btn {
+	position: relative;
+	bottom: -130px;
+	right: 182px;
+} */
+
+@media (min-width: 390px) and (max-width: 767px) {
+	.connectCenter {
+		display: flex;
+		flex-direction: column;
+	}
+	img {
+		width: 370px;
+	}
+	.connect {
+		height: 56rem;
+	}
+	.contact-option {
+		width: 209px;
+		padding: 14px 0 0;
+		height: 145px;
+	}
+	.connectContainer {
+		position: relative;
+		top: 100px;
+	}
+}
