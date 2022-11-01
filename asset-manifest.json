@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/SeifPorfolio/static/css/main.aed77065.css",
+    "main.js": "/SeifPorfolio/static/js/main.d98ffd08.js",
+    "static/media/spaceman.png": "/SeifPorfolio/static/media/spaceman.4e5126d4a436163eac52.png",
+    "static/media/programmers.png": "/SeifPorfolio/static/media/programmers.9faa3362e2aba5412d79.png",
+    "static/media/SaifBAckGround.jpg": "/SeifPorfolio/static/media/SaifBAckGround.22c3be632e5a05f348b2.jpg",
+    "index.html": "/SeifPorfolio/index.html",
+    "main.aed77065.css.map": "/SeifPorfolio/static/css/main.aed77065.css.map",
+    "main.d98ffd08.js.map": "/SeifPorfolio/static/js/main.d98ffd08.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aed77065.css",
+    "static/js/main.d98ffd08.js"
+  ]
+}
